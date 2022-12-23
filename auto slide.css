@@ -1,0 +1,52 @@
+
+        .sty{
+            font-size: 40px;
+        }
+        .go{
+            font-size: 100px;
+        }
+        
+      #slide-cont   i{
+            position: absolute;
+            top: 50%;
+            font-size: 40px;
+            color: orangered;
+        }
+        #prev{
+            left: 10px;
+        }
+        #next{
+            right: 10px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+        }
+        img{
+            width: 1000px;
+        }
+        #slide-list{
+            display: flex;
+            transition: all 1s;
+           animation: slides 40s infinite;
+            position: relative;
+        }
+        #slide-cont{
+            position: relative;
+            margin: 200px;
+            width: 1000px;
+            overflow: hidden;
+        }
+
+        @keyframes slides{
+            0% {left: 0px;}
+            20% {left: -1000px;}
+            40% {left: -2000px;}
+            60% {left: -3000px;}
+            80% {left: -4000px;}
+            100% {left: 0px;}
+
+
+        }
