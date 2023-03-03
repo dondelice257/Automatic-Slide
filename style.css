@@ -6,7 +6,7 @@
             font-size: 100px;
         }
         
-      #slide-cont   {
+      #slide-cont  i{
             position: absolute;
             top: 50%;
             font-size: 40px;
